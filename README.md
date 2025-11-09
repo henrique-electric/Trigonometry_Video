@@ -1,0 +1,1 @@
+# An attemptive to explain trigonometry using 3Blue1Brown's manim library
