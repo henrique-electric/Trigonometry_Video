@@ -13,6 +13,6 @@ RUN printf '\ndev145\n' | sh -c "$(curl -fsSL https://raw.githubusercontent.com/
 
 RUN pipx install manim
 
-RUN echo 'export PATH="$PATH:$HOME/.local/bin"'
+RUN echo 'export PATH="$PATH:$HOME/.local/bin"' >> $HOME/.zshrc
 
 CMD ["zsh"]
