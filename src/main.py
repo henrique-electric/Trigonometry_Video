@@ -73,7 +73,7 @@ class Main(MovingCameraScene):
 
     def construct(self):
         self.greeting()
-        self.plot_main_scene()
+        #self.plot_main_scene()
         #self.fade_all_scene()
-        #self.wait(2)
+        self.wait(2)
         #self.show_all_scene()

@@ -1,6 +1,6 @@
 FROM archlinux:latest
 
-RUN pacman -Syyu --noconfirm && pacman -S python uv python-pipx zsh sudo git ffmpeg base-devel cmake neovim pkgconf --noconfirm
+RUN pacman -Syyu --noconfirm && pacman -S python uv python-pipx zsh sudo git ffmpeg base-devel cmake neovim pkgconf texlive --noconfirm
 
 RUN useradd -m dev
 RUN printf 'dev145\ndev145\n' | passwd dev
